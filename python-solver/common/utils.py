@@ -1,5 +1,4 @@
 from typing import Any
-from pathlib import Path
 import json
 
 from importlib_resources import files
@@ -20,7 +19,6 @@ def get_resource_file_for_module(module: str, name: str) -> Any:
 
 
 def load_json_from_subdir(subdir: str, filename: str):
-    import os
     from pathlib import Path
 
     # Step up to project root (assumes script is in project_root/any/subdir/)

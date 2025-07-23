@@ -1,4 +1,3 @@
-from ortools.sat.python import cp_model
 from google.protobuf import text_format
 
 def export_cp_model(model, filename, text_format_output=True):

@@ -46,7 +46,7 @@ class SolveTaskScheduling:
         model.Minimize(makespan)
 
         # Export CP-SAP in
-        export_cp_model(model, "my_cp_model", text_format_output=True)
+        # export_cp_model(model, "my_cp_model", text_format_output=True)
 
         # Solve
         solver = cp_model.CpSolver()

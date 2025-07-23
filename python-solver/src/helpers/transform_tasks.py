@@ -1,5 +1,4 @@
 import json
-from collections import defaultdict
 
 
 def transform_tasks_from_dict(data):

@@ -1,8 +1,7 @@
 from common.utils import load_json_from_subdir
 from src.algorithm.cp_task_scheduling import SolveTaskScheduling
-import json
 
-from src.helpers.transform_tasks import transform_tasks, transform_tasks_from_dict
+from src.helpers.transform_tasks import transform_tasks_from_dict
 from src.helpers.visualization import plot_task_dependency_dag
 
 
