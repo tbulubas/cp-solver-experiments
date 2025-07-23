@@ -1,0 +1,3 @@
+# config.yaml
+solver:
+  name: scip # glpk, gurobi, cplex, scip

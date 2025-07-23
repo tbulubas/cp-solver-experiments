@@ -1,0 +1,138 @@
+{
+  "Tasks": [
+    {
+      "id": {
+        "prodId": "prodId111",
+        "taskId": "taskId001"
+      },
+      "dependingOn": [
+        {
+          "prodId": "prodId112",
+          "taskId": "taskId004"
+        }
+      ],
+      "preceding": null,
+      "station": "station111",
+      "duration": 30
+    },
+    {
+      "id": {
+        "prodId": "prodId111",
+        "taskId": "taskId002"
+      },
+      "dependingOn": [
+        {
+          "prodId": "prodId111",
+          "taskId": "taskId001"
+        }
+      ],
+      "preceding": {
+        "prodId": "prodId111",
+        "taskId": "taskId001"
+      },
+      "station": "station111",
+      "duration": 20
+    },
+    {
+      "id": {
+        "prodId": "prodId111",
+        "taskId": "taskId003"
+      },
+      "dependingOn": [
+        {
+          "prodId": "prodId111",
+          "taskId": "taskId002"
+        }
+      ],
+      "preceding": {
+        "prodId": "prodId111",
+        "taskId": "taskId002"
+      },
+      "station": "station111",
+      "duration": 30
+    },
+    {
+      "id": {
+        "prodId": "prodId111",
+        "taskId": "taskId004"
+      },
+      "dependingOn": [
+        {
+          "prodId": "prodId111",
+          "taskId": "taskId003"
+        }
+      ],
+      "preceding": {
+        "prodId": "prodId111",
+        "taskId": "taskId003"
+      },
+      "station": "station111",
+      "duration": 30
+    },
+    {
+      "id": {
+        "prodId": "prodId112",
+        "taskId": "taskId001"
+      },
+      "dependingOn": [],
+      "preceding": null,
+      "station": "station222",
+      "duration": 30
+    },
+    {
+      "id": {
+        "prodId": "prodId112",
+        "taskId": "taskId002"
+      },
+      "dependingOn": [
+        {
+          "prodId": "prodId112",
+          "taskId": "taskId001"
+        }
+      ],
+      "preceding": {
+        "prodId": "prodId112",
+        "taskId": "taskId001"
+      },
+      "station": "station222",
+      "duration": 20
+    },
+    {
+      "id": {
+        "prodId": "prodId112",
+        "taskId": "taskId003"
+      },
+      "dependingOn": [
+        {
+          "prodId": "prodId112",
+          "taskId": "taskId002"
+        }
+      ],
+      "preceding": {
+        "prodId": "prodId112",
+        "taskId": "taskId002"
+      },
+      "station": "station222",
+      "duration": 30
+    },
+    {
+      "id": {
+        "prodId": "prodId112",
+        "taskId": "taskId004"
+      },
+      "dependingOn": [
+        {
+          "prodId": "prodId112",
+          "taskId": "taskId003"
+        }
+      ],
+      "preceding": {
+        "prodId": "prodId112",
+        "taskId": "taskId003"
+      },
+      "station": "station222",
+      "duration": 30
+    }
+  ],
+  "startTime": 1752675451.467540000
+}
